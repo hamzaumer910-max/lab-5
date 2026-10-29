@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Umer - CV (Scrollable)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-bold text-lg text-blue-600">Hamza Umer <span class="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">3rd Sem CS</span></span>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#skills" class="hover:text-blue-600">Skills</a>
+                <a href="#projects" class="hover:text-blue-600">Projects</a>
+                <a href="#contact" class="hover:text-blue-600">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+        <section id="about" class="flex flex-col md:flex-row items-center gap-8 bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+            <div class="w-32 h-32 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-4xl font-bold">HU</div>
+            <div class="space-y-3 text-center md:text-left">
+                <h1 class="text-3xl font-bold tracking-tight">Hamza Umer</h1>
+                <p class="text-slate-600">BS Computer Science Student at Qarshi University (3rd Semester). Passionate about writing clean code, learning algorithms, and developing software applications.</p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-3 pt-2">
+                    <span class="inline-flex items-center gap-1 text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-md font-medium"><span class="material-symbols-outlined text-sm">school</span> Qarshi University</span>
+                    <span class="inline-flex items-center gap-1 text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-md font-medium"><span class="material-symbols-outlined text-sm">call</span> 03235720754</span>
+                    <span class="inline-flex items-center gap-1 text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-md font-medium"><span class="material-symbols-outlined text-sm">mail</span> hamzaumer910@gmail.com</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="space-y-6">
+            <h2 class="text-xl font-bold flex items-center gap-2"><span class="material-symbols-outlined text-blue-600">code</span> Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm"><h3 class="font-semibold text-sm">Languages</h3><p class="text-xs text-slate-500 mt-1">Java, Python, C++</p></div>
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm"><h3 class="font-semibold text-sm">Current Status</h3><p class="text-xs text-slate-500 mt-1">3rd Semester CS Student</p></div>
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm"><h3 class="font-semibold text-sm">Tools</h3><p class="text-xs text-slate-500 mt-1">VS Code, Git, GitHub</p></div>
+            </div>
+        </section>
+
+        <section id="projects" class="space-y-6">
+            <h2 class="text-xl font-bold flex items-center gap-2"><span class="material-symbols-outlined text-blue-600">folder</span> Lab & Semester Projects</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                    <h3 class="font-bold text-base">OOP Console Application</h3>
+                    <p class="text-xs text-slate-600">Developed using Java implementing classes, objects, and inheritance principles.</p>
+                    <span class="inline-block text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded font-medium">Java • OOP</span>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                    <h3 class="font-bold text-base">Python & C++ Utility Scripts</h3>
+                    <p class="text-xs text-slate-600">Created automated scripts and logic-based programs for academic assignments.</p>
+                    <span class="inline-block text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded font-medium">Python • C++</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-blue-600 text-white p-8 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+                <h2 class="text-xl font-bold">Get in Touch</h2>
+                <p class="text-blue-100 text-sm mt-1">Feel free to reach out for collaborations or project discussions.</p>
+            </div>
+            <a href="mailto:hamzaumer910@gmail.com" class="bg-white text-blue-600 font-semibold px-6 py-2.5 rounded-lg text-sm hover:bg-blue-50 transition">Email Me</a>
+        </section>
+    </main>
+
+    <footer class="text-center py-8 text-xs text-slate-400 border-t border-slate-200 mt-16">
+        Hamza Umer • Qarshi University
+    </footer>
+</body>
+</html>
